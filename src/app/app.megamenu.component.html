@@ -1,0 +1,100 @@
+<div id="layout-megamenu" class="col-12 layout-megamenu fadeInDown" [ngClass]="{'layout-megamenu-active': appMain.megaMenuActive,'layout-megamenu-dark': app.megaMenuMode !== 'light',
+         'layout-megamenu-gradient':  app.megaMenuMode === 'gradient'}" (click)="appMain.onMegaMenuClick()">
+    <div class="grid">
+        <div class="col-12 md:col-6 lg:col-3 layout-megamenu-submenu">
+            <h6>System Reports</h6>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-list"></i>
+                        <span>System Logs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-save"></i>
+                        <span>Back-up Server</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-users"></i>
+                        <span>Conversions</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-th-large"></i>
+                        <span>Storage Logs</span>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 md:col-6 lg:col-3 layout-megamenu-submenu">
+            <h6>Finance Reports</h6>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-file"></i>
+                        <span>Annual Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-dollar"></i>
+                        <span>Revenue Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-user"></i>
+                        <span>HR Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-chart-bar"></i>
+                        <span>Finance Margin</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 md:col-6 lg:col-3 layout-megamenu-submenu">
+            <h6>Settings</h6>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-envelope"></i>
+                        <span>E-mail Notifications</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-mobile"></i>
+                        <span>Sms Alerts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="pi pi-fw pi-globe"></i>
+                        <span>Site Tracking</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 md:col-6 lg:col-3 layout-megamenu-submenu">
+            <div class="content-img">
+                <img src="assets/layout/images/image-mega.png" alt="california-layout" />
+
+                <div class="img-megamenu">
+                    <span class="col-12 img-header">California</span>
+                    <span class="col-12 img-subheader">Application Template</span>
+                </div>
+
+                <p-button label="Buy Now" type="button" class="alt-btn"></p-button>
+            </div>
+        </div>
+    </div>
+</div>

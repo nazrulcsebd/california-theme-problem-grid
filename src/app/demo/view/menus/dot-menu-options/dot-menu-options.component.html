@@ -1,0 +1,5 @@
+<button type="button" pButton class="p-button p-button-sm me-2 action-menu" (click)="MenuKenuId.show($event)">
+    <span class="ui-button-icon-left pi pi-ellipsis-v"></span>
+    <span class="ui-button-icon-left pi pi-angle-down"></span>
+</button>
+<p-menu appendTo="body" #MenuKenuId [model]="ItemId" [styleClass]="boxWidth" [popup]="true"></p-menu>
